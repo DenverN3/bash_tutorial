@@ -6,7 +6,7 @@ Hello, welcome to the commandline tutorial hosted by the University of Oregon Wo
 
 You can download this using the github website by clicking the upper right corner where it says **Code** or by using the command: 
 
-`git clone https://github.com/aikubo/Cmdln-Tutorial.git`
+`git clone https://github.com/aikubo/bash_tutorial.git`
 
 ## Presentation
 The presentation  with animations utilizes [Present](https://github.com/vinayak-mehta/present) and can be accessing by first installing *Present* then using the command 
