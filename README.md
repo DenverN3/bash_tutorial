@@ -16,5 +16,9 @@ However a version of the presentation can also be read just by clicking the file
 
 # Exercise 
 
-To open the exercise open the file /dogs/interactive_bash.md for instructions. 
+To open the exercise open the file /dogs/dogs_cats.md for instructions. 
+There are 3 parts to the exercise: 
+- following along with using `awk`, `head`, `|` and other commands 
+- change the commands we learned slightly to work with a different csv 
+- writing your own script from scratch 
 
