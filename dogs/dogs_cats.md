@@ -111,6 +111,12 @@ Create a new script called adopt.sh.
 
 This script will move one line from the available to adopted .csv files. 
 
-To do this you will use `sed`
+It should have one input using `$1` that is the line number of that dogs entry 
+in the available dogs file. 
+
+You will use `sed` and `>>` to put the output of `sed` into a file. 
+
+Then delete the line from the avilable dogs file. 
+
 
  
