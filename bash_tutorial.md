@@ -1,8 +1,10 @@
+<!-- fg=green bg=black -->
 # Intro to Bash Scripting 
 
 ## Hosted by WiHPC and IgDEAS 
 
 ---
+<!-- fg=green bg=black -->
 ## What Bash?
 
 Bash is a programming language.
@@ -11,6 +13,7 @@ Bourne Again SHell written by Brian Fox in 1989.
 A shell is what interprets the commands in the commandline and runs them.
 
 ---
+<!-- fg=green bg=black -->
 ## Why Bash? 
 
 All the commands we learned
@@ -26,6 +29,7 @@ Bash is open source! Free and Open!
 It is on millions of computers worldwide.
 
 --- 
+<!-- fg=green bg=black -->
 ## Good Uses for Bash 
 
 - Rename thousands of pictures from your vacation
@@ -35,6 +39,7 @@ It is on millions of computers worldwide.
 - Run a parameter search on a program 
 
 ---
+<!-- fg=green bg=black -->
 ## Defining some terms 
 
 - Scripting/scripts: used to automate processes that would otherwise need to be executed step-by-step
@@ -45,6 +50,7 @@ It is on millions of computers worldwide.
 - path: location of a file or folder. Ex: `/home/Downloads/homework.pdf`
 
 ---
+<!-- fg=green bg=black -->
 ## Review of some commands
 
 *pwd* - Present Working Directory
@@ -57,6 +63,7 @@ It is on millions of computers worldwide.
 *rm* - remove files
 
 --- 
+<!-- fg=green bg=black -->
 ## Echo
 
 Open up a terminal and use the command: 
@@ -64,6 +71,7 @@ Open up a terminal and use the command:
 `echo "hello world"` 
 
 ---
+<!-- fg=green bg=black -->
 ## Your First Script 
 
 Open up a terminal window and use the command 
@@ -73,6 +81,7 @@ Open up a terminal window and use the command
 `.sh` is the extension we will be using for shell scripts 
 
 --- 
+<!-- fg=green bg=black -->
 ## Changing Permission 
 
 In order to run a executable, you need to give it permission.
@@ -86,6 +95,7 @@ use `ls -l` (list the files with option --long)
 This script does not have *x*, *execute permission*. 
 
 --- 
+<!-- fg=green bg=black -->
 ## Permissions 
 Use the command `chmod` to add (or take away permisisons). 
 
@@ -100,6 +110,7 @@ Now `ls -l` should show
 *r*ead, *w*rite, *e*xecute
 
 ---
+<!-- fg=green bg=black -->
 ## For loops 
 
 Repeats some code
@@ -110,6 +121,7 @@ Repeats some code
 ` done`
 
 ---
+<!-- fg=green bg=black -->
 # Your second Script 
 
 Write a bash script that 
@@ -117,6 +129,7 @@ Write a bash script that
 prints `hello world` 5 times
 
 ---
+<!-- fg=green bg=black -->
 ## You can run any Bash command 
 
 You can add command just like you would in the commandline 
@@ -131,9 +144,11 @@ To run a bash command and store the output, enclose that command in `$(COMMAND)`
 `$(pwd)` 
 
 ---
+<!-- fg=green bg=black -->
 ## Add a line that prints the directory at the beginning
 
 ---
+<!-- fg=green bg=black -->
 ## if loops 
 
 ` if [ CONDITION ] ; then ` 
@@ -143,9 +158,11 @@ To run a bash command and store the output, enclose that command in `$(COMMAND)`
 ` fi ` 
 
 ---
+<!-- fg=green bg=black -->
 ## Add an if statement that only prints on even numbers
 
 ---
+<!-- fg=green bg=black -->
 ## Piping 
 
 We can pipe the output of one command into another. 
@@ -161,6 +178,7 @@ You are piping the output of the list of files in the directory
 to `wc`
 
 ---
+<!-- fg=green bg=black -->
 ## wc 
 
 Stands for word count 
@@ -173,6 +191,7 @@ So
 Counts the files in a directory. 
 
 --- 
+<!-- fg=green bg=black -->
 ## Controlling the Output of a command 
 
 ` > ` puts the output of a command into a file 
@@ -184,6 +203,7 @@ Try
 ` pwd > path`
 
 --- 
+<!-- fg=green bg=black -->
 ## Inputs for Bash Scripts 
 
 We can use inputs for bash scripts!
@@ -196,6 +216,7 @@ echo $1
 ```
 
 ---
+<!-- fg=green bg=black -->
 ## Learning new functions 
 
 - awk 
@@ -206,12 +227,14 @@ echo $1
 - head
 
 --- 
+<!-- fg=green bg=black -->
 ## Learning new functions 
 
 Rather than defining them, to learn what these do we are going 
 to *use* the functions in the assignment. 
 
 ---
+<!-- fg=green bg=black -->
 ## Before we end 
 
 Bash is CASE sensitive.
@@ -223,6 +246,7 @@ Bash is "space" sensitive.
 Bash is not sensitive to indents.
 
 --- 
+<!-- fg=green bg=black -->
 ## Explain Shell 
 
 Type in any command and it explains all the options 
@@ -230,10 +254,12 @@ and the command to you!
 
 https://explainshell.com/#
 
---- 
+---
+<!-- fg=green bg=black --> 
 ## Fun Bash script example 
 
 ---
+<!-- fg=green bg=black -->
 # Resources 
 
 Bash for Science: https://github.com/jperkel/nature_bash

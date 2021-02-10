@@ -5,7 +5,8 @@ BASH Dog Shelter has a lot of dogs and not very much money.
 The previous volunteers made a spreadsheet of the dogs. 
 But they can't afford a license for Microsoft Excel
 or any apple products
-only open source Linux software like BASH. 
+only open source Linux software like BASH. :C
+
 
 Now you have to manipulate this database to get 
 the dogs adopted. 
@@ -38,8 +39,7 @@ A `0` indicates they haven't been adopted.
 Try the command 
 `awk -F "," '( $6 == 1)'`
 
-`awk` filters text. The `-F,` marker tells it that the field seperator is
-for this one it is commas.
+`awk` filters text. The `-F,` marker tells it that the Field seperator is commas.
 
 `($6 == 1)` looks at the 6th column and picks the one equal to 1 only.
 
@@ -57,9 +57,9 @@ are still available (0).
 
 Use the `awk` command above and `>` to make two spreadsheets. One of adoptedDogs.csv and availableDogs.csv. 
 
-`awk -F, '(#6 == 1)' dogShelter.csv > adoptedDogs.csv`
+`awk -F, '($6 == 1)' dogShelter.csv > adoptedDogs.csv`
 
-`awk -F, '(#6 == 0)' dogShelter.csv > availableDogs.csv`
+`awk -F, '($6 == 0)' dogShelter.csv > availableDogs.csv`
 
 ## Sort the availableDogs file 
 
@@ -108,5 +108,9 @@ they are moved from available to adopted files.
 Create a new script called adopt.sh.
 
 `nano adopt.sh` 
+
+This script will move one line from the available to adopted .csv files. 
+
+To do this you will use `sed`
 
  
