@@ -68,7 +68,7 @@ the shelter the longest to get adopted first.
 
 
 We can sort the file using 
-`sort -t, -k5 availableDogs.csv`
+`sort -t, -nk5 availableDogs.csv`
 
 `-t,` is the same as `-F,` in awk, it tells sort that it is seperate by commas. 
 
