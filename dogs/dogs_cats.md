@@ -72,7 +72,7 @@ We can sort the file using
 
 `-t,` is the same as `-F,` in awk, it tells sort that it is seperate by commas. 
 
-`-nk4` is *n*umeric, *k*ey 5, meaning sort by number and go to column 4. 
+`-nk5` is *n*umeric, *k*ey 5, meaning sort by number and go to column 5. 
 
 Take that output and put it into a file. You can combine the `awk` command and `sort` and `>` to do this all in one step. 
 
